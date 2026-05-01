@@ -46,8 +46,8 @@ function Dashboard() {
   };
 
   useEffect(() => {
-    fetchData();
-  }, []);
+  fetchData();
+}, [fetchData]);
 
   const completedTasks = tasks.filter(
     (task) => task.status === "Completed"

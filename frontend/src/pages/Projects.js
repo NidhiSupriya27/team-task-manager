@@ -26,8 +26,8 @@ function Projects() {
   };
 
   useEffect(() => {
-    fetchProjects();
-  }, []);
+  fetchProjects();
+}, [fetchProjects]);
 
   // Create / Update Project
   const handleSubmit = async (e) => {

@@ -29,11 +29,9 @@ function Tasks() {
       console.log(error);
     }
   };
-
-  useEffect(() => {
-    fetchTasks();
-  }, []);
-
+useEffect(() => {
+  fetchTasks();
+}, [fetchTasks]);
   const handleSubmit = async (e) => {
     e.preventDefault();
 
