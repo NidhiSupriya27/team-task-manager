@@ -1,0 +1,41 @@
+body {
+  background-color: #f5f7fa;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+}
+
+.shadow {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08) !important;
+}
+
+h2, h4 {
+  font-weight: 700;
+}
+
+.table {
+  background: white;
+}
+
+.sidebar {
+  min-height: 100vh;
+  background: #212529;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+}
+
+.sidebar a:hover {
+  background: #343a40;
+}
